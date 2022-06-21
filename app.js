@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-// change user and pass for one valid
+// change user and pass for one valid if you want to connect to mongoDb
 const url = 'mongodb+srv://user:pass@cluster0.r7cd9.mongodb.net/db1?retryWrites=true&w=majority'
 
 mongoose.connect(url, {
